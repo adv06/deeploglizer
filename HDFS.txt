@@ -1,0 +1,1 @@
+20250721-221446 d30848aa demo.py dataset:HDFS	feature_type:sequentials	use_attention:False	label_type:next_log f1-0.6897	rc-0.5263	pc-1.0000	top5-acc-0.9713	converge-2.0000 train: 2.554 test: 0.134

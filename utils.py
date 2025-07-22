@@ -96,3 +96,18 @@ def seed_everything(seed=1234):
     np.random.seed(seed)
     torch.manual_seed(seed)
 
+def dump_pickle(obj, file_path):
+    logging.info("Dumping to {}".format(file_path))
+    with open(file_path, "wb") as fw:
+        pickle.dump(obj, fw)
+
+
+def load_pickle(file_path):
+    logging.info("Loading from {}".format(file_path))
+    with open(file_path, "rb") as fr:
+        return pickle.load(fr)
+
+def decision(probability):
+    return random.random() < probability
+
+

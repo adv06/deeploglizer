@@ -1,0 +1,344 @@
+2025-07-21 22:05:50,779 P15016 INFO {
+    "model_name": "Transformer",
+    "hidden_size": 128,
+    "num_layers": 2,
+    "embedding_dim": 32,
+    "nhead": 2,
+    "dataset": "HDFS",
+    "data_dir": "hdfs_0.0_tar",
+    "window_size": 10,
+    "stride": 1,
+    "feature_type": "sequentials",
+    "use_attention": false,
+    "label_type": "next_log",
+    "use_tfidf": false,
+    "max_token_len": 50,
+    "min_token_count": 1,
+    "epoches": 100,
+    "batch_size": 1024,
+    "learning_rate": 0.01,
+    "topk": 10,
+    "patience": 3,
+    "random_seed": 42,
+    "gpu": 0,
+    "hash_id": "d30848aa"
+}
+2025-07-21 22:05:50,869 P15016 INFO Train sessions: 6096, ratio of anomalies: 0.00
+2025-07-21 22:05:50,869 P15016 INFO Test sessions: 1588, ratio of anomalies: 0.04
+2025-07-21 22:05:50,869 P15016 INFO Cannot load cached feature extractor.
+2025-07-21 22:05:50,873 P15016 INFO 14 tempaltes are found.
+2025-07-21 22:05:50,873 P15016 INFO Transforming train data.
+2025-07-21 22:05:50,887 P15016 INFO 26376 sliding windows generated.
+2025-07-21 22:05:50,921 P15016 INFO Finish feature extraction (train).
+2025-07-21 22:05:50,921 P15016 INFO Transforming test data.
+2025-07-21 22:05:50,922 P15016 INFO 2 new templates show while testing.
+2025-07-21 22:05:50,925 P15016 INFO 6724 sliding windows generated.
+2025-07-21 22:05:50,933 P15016 INFO Finish feature extraction (test).
+2025-07-21 22:05:50,984 P15016 INFO Training model on cpu...
+2025-07-21 22:07:03,080 P5876 INFO {
+    "model_name": "Transformer",
+    "hidden_size": 128,
+    "num_layers": 2,
+    "embedding_dim": 32,
+    "nhead": 2,
+    "dataset": "HDFS",
+    "data_dir": "hdfs_0.0_tar",
+    "window_size": 10,
+    "stride": 1,
+    "feature_type": "sequentials",
+    "use_attention": false,
+    "label_type": "next_log",
+    "use_tfidf": false,
+    "max_token_len": 50,
+    "min_token_count": 1,
+    "epoches": 100,
+    "batch_size": 1024,
+    "learning_rate": 0.01,
+    "topk": 10,
+    "patience": 3,
+    "random_seed": 42,
+    "gpu": 0,
+    "hash_id": "d30848aa"
+}
+2025-07-21 22:07:03,098 P5876 INFO Train sessions: 6096, ratio of anomalies: 0.00
+2025-07-21 22:07:03,098 P5876 INFO Test sessions: 1588, ratio of anomalies: 0.04
+2025-07-21 22:07:03,099 P5876 INFO Cannot load cached feature extractor.
+2025-07-21 22:07:03,102 P5876 INFO 14 tempaltes are found.
+2025-07-21 22:07:03,103 P5876 INFO Transforming train data.
+2025-07-21 22:07:03,116 P5876 INFO 26376 sliding windows generated.
+2025-07-21 22:07:03,149 P5876 INFO Finish feature extraction (train).
+2025-07-21 22:07:03,150 P5876 INFO Transforming test data.
+2025-07-21 22:07:03,151 P5876 INFO 2 new templates show while testing.
+2025-07-21 22:07:03,155 P5876 INFO 6724 sliding windows generated.
+2025-07-21 22:07:03,162 P5876 INFO Finish feature extraction (test).
+2025-07-21 22:07:03,181 P5876 INFO Training model on cpu...
+2025-07-21 22:07:06,877 P5876 INFO Epoch 1 loss: 0.0000, time: 3.70 seconds
+2025-07-21 22:07:06,877 P5876 INFO Evaluating test set...
+2025-07-21 22:07:06,986 P5876 INFO Inference time: 0.11 seconds
+2025-07-21 22:07:07,014 P5876 INFO Calculating acc sum
+2025-07-21 22:09:44,181 P12328 INFO {
+    "model_name": "Transformer",
+    "hidden_size": 128,
+    "num_layers": 2,
+    "embedding_dim": 32,
+    "nhead": 2,
+    "dataset": "HDFS",
+    "data_dir": "hdfs_0.0_tar",
+    "window_size": 10,
+    "stride": 1,
+    "feature_type": "sequentials",
+    "use_attention": false,
+    "label_type": "next_log",
+    "use_tfidf": false,
+    "max_token_len": 50,
+    "min_token_count": 1,
+    "epoches": 100,
+    "batch_size": 1024,
+    "learning_rate": 0.01,
+    "topk": 10,
+    "patience": 3,
+    "random_seed": 42,
+    "gpu": 0,
+    "hash_id": "d30848aa"
+}
+2025-07-21 22:09:44,203 P12328 INFO Train sessions: 6096, ratio of anomalies: 0.00
+2025-07-21 22:09:44,203 P12328 INFO Test sessions: 1588, ratio of anomalies: 0.04
+2025-07-21 22:09:44,203 P12328 INFO Cannot load cached feature extractor.
+2025-07-21 22:09:44,206 P12328 INFO 14 tempaltes are found.
+2025-07-21 22:09:44,206 P12328 INFO Transforming train data.
+2025-07-21 22:09:44,221 P12328 INFO 26376 sliding windows generated.
+2025-07-21 22:09:44,252 P12328 INFO Finish feature extraction (train).
+2025-07-21 22:09:44,253 P12328 INFO Transforming test data.
+2025-07-21 22:09:44,254 P12328 INFO 2 new templates show while testing.
+2025-07-21 22:09:44,256 P12328 INFO 6724 sliding windows generated.
+2025-07-21 22:09:44,266 P12328 INFO Finish feature extraction (test).
+2025-07-21 22:09:44,284 P12328 INFO Training model on cpu...
+2025-07-21 22:09:47,933 P12328 INFO Epoch 1 loss: 0.0000, time: 3.65 seconds
+2025-07-21 22:09:47,933 P12328 INFO Evaluating test set...
+2025-07-21 22:09:48,039 P12328 INFO Inference time: 0.10 seconds
+2025-07-21 22:09:48,064 P12328 INFO Calculating acc sum
+2025-07-21 22:11:09,001 P24296 INFO {
+    "model_name": "Transformer",
+    "hidden_size": 128,
+    "num_layers": 2,
+    "embedding_dim": 32,
+    "nhead": 2,
+    "dataset": "HDFS",
+    "data_dir": "hdfs_0.0_tar",
+    "window_size": 10,
+    "stride": 1,
+    "feature_type": "sequentials",
+    "use_attention": false,
+    "label_type": "next_log",
+    "use_tfidf": false,
+    "max_token_len": 50,
+    "min_token_count": 1,
+    "epoches": 100,
+    "batch_size": 1024,
+    "learning_rate": 0.01,
+    "topk": 10,
+    "patience": 3,
+    "random_seed": 42,
+    "gpu": 0,
+    "hash_id": "d30848aa"
+}
+2025-07-21 22:11:09,018 P24296 INFO Train sessions: 6096, ratio of anomalies: 0.00
+2025-07-21 22:11:09,019 P24296 INFO Test sessions: 1588, ratio of anomalies: 0.04
+2025-07-21 22:11:09,019 P24296 INFO Cannot load cached feature extractor.
+2025-07-21 22:11:09,022 P24296 INFO 14 tempaltes are found.
+2025-07-21 22:11:09,022 P24296 INFO Transforming train data.
+2025-07-21 22:11:09,038 P24296 INFO 26376 sliding windows generated.
+2025-07-21 22:11:09,070 P24296 INFO Finish feature extraction (train).
+2025-07-21 22:11:09,071 P24296 INFO Transforming test data.
+2025-07-21 22:11:09,072 P24296 INFO 2 new templates show while testing.
+2025-07-21 22:11:09,075 P24296 INFO 6724 sliding windows generated.
+2025-07-21 22:11:09,084 P24296 INFO Finish feature extraction (test).
+2025-07-21 22:11:09,101 P24296 INFO Training model on cpu...
+2025-07-21 22:11:12,585 P24296 INFO Epoch 1 loss: 0.0000, time: 3.48 seconds
+2025-07-21 22:11:12,585 P24296 INFO Evaluating test set...
+2025-07-21 22:11:12,701 P24296 INFO Inference time: 0.12 seconds
+2025-07-21 22:11:12,726 P24296 INFO Calculating acc sum
+2025-07-21 22:11:12,740 P24296 INFO Finish generating store_df
+2025-07-21 22:11:12,752 P24296 INFO {'f1': '0.1791', 'rc': '0.6316', 'pc': '0.1043', 'top1-acc': '0.9713'}
+2025-07-21 22:11:12,757 P24296 INFO {'f1': '0.2471', 'rc': '0.5614', 'pc': '0.1584', 'top2-acc': '0.9713'}
+2025-07-21 22:11:12,761 P24296 INFO {'f1': '0.6593', 'rc': '0.5263', 'pc': '0.8824', 'top3-acc': '0.9713'}
+2025-07-21 22:11:12,767 P24296 INFO {'f1': '0.6667', 'rc': '0.5263', 'pc': '0.9091', 'top4-acc': '0.9713'}
+2025-07-21 22:11:12,772 P24296 INFO {'f1': '0.6667', 'rc': '0.5263', 'pc': '0.9091', 'top5-acc': '0.9713'}
+2025-07-21 22:11:12,776 P24296 INFO {'f1': '0.4810', 'rc': '0.3333', 'pc': '0.8636', 'top6-acc': '0.9713'}
+2025-07-21 22:11:12,782 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top7-acc': '0.9713'}
+2025-07-21 22:11:12,787 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top8-acc': '0.9713'}
+2025-07-21 22:11:12,791 P24296 INFO {'f1': '0.4800', 'rc': '0.3158', 'pc': '1.0000', 'top9-acc': '0.9713'}
+2025-07-21 22:11:12,796 P24296 INFO {'f1': '0.4800', 'rc': '0.3158', 'pc': '1.0000', 'top10-acc': '0.9713'}
+2025-07-21 22:11:12,796 P24296 INFO Count time: 0.09 seconds
+2025-07-21 22:11:12,797 P24296 INFO Saving model to ./experiment_records\d30848aa\model.ckpt
+2025-07-21 22:11:15,253 P24296 INFO Epoch 2 loss: 0.0000, time: 2.45 seconds
+2025-07-21 22:11:15,253 P24296 INFO Evaluating test set...
+2025-07-21 22:11:15,351 P24296 INFO Inference time: 0.10 seconds
+2025-07-21 22:11:15,373 P24296 INFO Calculating acc sum
+2025-07-21 22:11:15,381 P24296 INFO Finish generating store_df
+2025-07-21 22:11:15,387 P24296 INFO {'f1': '0.1173', 'rc': '0.7544', 'pc': '0.0636', 'top1-acc': '0.9713'}
+2025-07-21 22:11:15,391 P24296 INFO {'f1': '0.2208', 'rc': '0.5965', 'pc': '0.1355', 'top2-acc': '0.9713'}
+2025-07-21 22:11:15,395 P24296 INFO {'f1': '0.4921', 'rc': '0.5439', 'pc': '0.4493', 'top3-acc': '0.9713'}
+2025-07-21 22:11:15,401 P24296 INFO {'f1': '0.6593', 'rc': '0.5263', 'pc': '0.8824', 'top4-acc': '0.9713'}
+2025-07-21 22:11:15,405 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top5-acc': '0.9713'}
+2025-07-21 22:11:15,409 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top6-acc': '0.9713'}
+2025-07-21 22:11:15,415 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top7-acc': '0.9713'}
+2025-07-21 22:11:15,431 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top8-acc': '0.9713'}
+2025-07-21 22:11:15,449 P24296 INFO {'f1': '0.4800', 'rc': '0.3158', 'pc': '1.0000', 'top9-acc': '0.9713'}
+2025-07-21 22:11:15,456 P24296 INFO {'f1': '0.4595', 'rc': '0.2982', 'pc': '1.0000', 'top10-acc': '0.9713'}
+2025-07-21 22:11:15,456 P24296 INFO Count time: 0.10 seconds
+2025-07-21 22:11:17,813 P24296 INFO Epoch 3 loss: 0.0000, time: 2.36 seconds
+2025-07-21 22:11:17,814 P24296 INFO Evaluating test set...
+2025-07-21 22:11:17,918 P24296 INFO Inference time: 0.10 seconds
+2025-07-21 22:11:17,940 P24296 INFO Calculating acc sum
+2025-07-21 22:11:17,946 P24296 INFO Finish generating store_df
+2025-07-21 22:11:17,953 P24296 INFO {'f1': '0.1351', 'rc': '0.7193', 'pc': '0.0745', 'top1-acc': '0.9713'}
+2025-07-21 22:11:17,957 P24296 INFO {'f1': '0.2252', 'rc': '0.5965', 'pc': '0.1388', 'top2-acc': '0.9713'}
+2025-07-21 22:11:17,961 P24296 INFO {'f1': '0.6383', 'rc': '0.5263', 'pc': '0.8108', 'top3-acc': '0.9713'}
+2025-07-21 22:11:17,967 P24296 INFO {'f1': '0.4935', 'rc': '0.3333', 'pc': '0.9500', 'top4-acc': '0.9713'}
+2025-07-21 22:11:17,972 P24296 INFO {'f1': '0.4935', 'rc': '0.3333', 'pc': '0.9500', 'top5-acc': '0.9713'}
+2025-07-21 22:11:17,976 P24296 INFO {'f1': '0.4935', 'rc': '0.3333', 'pc': '0.9500', 'top6-acc': '0.9713'}
+2025-07-21 22:11:17,980 P24296 INFO {'f1': '0.4935', 'rc': '0.3333', 'pc': '0.9500', 'top7-acc': '0.9713'}
+2025-07-21 22:11:17,984 P24296 INFO {'f1': '0.4935', 'rc': '0.3333', 'pc': '0.9500', 'top8-acc': '0.9713'}
+2025-07-21 22:11:17,989 P24296 INFO {'f1': '0.4935', 'rc': '0.3333', 'pc': '0.9500', 'top9-acc': '0.9713'}
+2025-07-21 22:11:17,993 P24296 INFO {'f1': '0.4737', 'rc': '0.3158', 'pc': '0.9474', 'top10-acc': '0.9713'}
+2025-07-21 22:11:17,993 P24296 INFO Count time: 0.07 seconds
+2025-07-21 22:11:20,616 P24296 INFO Epoch 4 loss: 0.0000, time: 2.62 seconds
+2025-07-21 22:11:20,617 P24296 INFO Evaluating test set...
+2025-07-21 22:11:20,715 P24296 INFO Inference time: 0.10 seconds
+2025-07-21 22:11:20,738 P24296 INFO Calculating acc sum
+2025-07-21 22:11:20,743 P24296 INFO Finish generating store_df
+2025-07-21 22:11:20,750 P24296 INFO {'f1': '0.0877', 'rc': '0.9123', 'pc': '0.0461', 'top1-acc': '0.9713'}
+2025-07-21 22:11:20,755 P24296 INFO {'f1': '0.2215', 'rc': '0.5965', 'pc': '0.1360', 'top2-acc': '0.9713'}
+2025-07-21 22:11:20,759 P24296 INFO {'f1': '0.6593', 'rc': '0.5263', 'pc': '0.8824', 'top3-acc': '0.9713'}
+2025-07-21 22:11:20,764 P24296 INFO {'f1': '0.6667', 'rc': '0.5263', 'pc': '0.9091', 'top4-acc': '0.9713'}
+2025-07-21 22:11:20,769 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top5-acc': '0.9713'}
+2025-07-21 22:11:20,773 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top6-acc': '0.9713'}
+2025-07-21 22:11:20,777 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top7-acc': '0.9713'}
+2025-07-21 22:11:20,785 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top8-acc': '0.9713'}
+2025-07-21 22:11:20,790 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top9-acc': '0.9713'}
+2025-07-21 22:11:20,794 P24296 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top10-acc': '0.9713'}
+2025-07-21 22:11:20,794 P24296 INFO Count time: 0.07 seconds
+2025-07-21 22:11:20,796 P24296 INFO Early stopping at epoch 4.
+2025-07-21 22:11:20,797 P24296 INFO Loading model from ./experiment_records\d30848aa\model.ckpt
+2025-07-21 22:14:30,933 P10068 INFO {
+    "model_name": "Transformer",
+    "hidden_size": 128,
+    "num_layers": 2,
+    "embedding_dim": 32,
+    "nhead": 2,
+    "dataset": "HDFS",
+    "data_dir": "hdfs_0.0_tar",
+    "window_size": 10,
+    "stride": 1,
+    "feature_type": "sequentials",
+    "use_attention": false,
+    "label_type": "next_log",
+    "use_tfidf": false,
+    "max_token_len": 50,
+    "min_token_count": 1,
+    "epoches": 100,
+    "batch_size": 1024,
+    "learning_rate": 0.01,
+    "topk": 10,
+    "patience": 3,
+    "random_seed": 42,
+    "gpu": 0,
+    "hash_id": "d30848aa"
+}
+2025-07-21 22:14:30,952 P10068 INFO Train sessions: 6096, ratio of anomalies: 0.00
+2025-07-21 22:14:30,952 P10068 INFO Test sessions: 1588, ratio of anomalies: 0.04
+2025-07-21 22:14:30,953 P10068 INFO Cannot load cached feature extractor.
+2025-07-21 22:14:30,955 P10068 INFO 14 tempaltes are found.
+2025-07-21 22:14:30,955 P10068 INFO Transforming train data.
+2025-07-21 22:14:30,969 P10068 INFO 26376 sliding windows generated.
+2025-07-21 22:14:31,007 P10068 INFO Finish feature extraction (train).
+2025-07-21 22:14:31,007 P10068 INFO Transforming test data.
+2025-07-21 22:14:31,008 P10068 INFO 2 new templates show while testing.
+2025-07-21 22:14:31,012 P10068 INFO 6724 sliding windows generated.
+2025-07-21 22:14:31,020 P10068 INFO Finish feature extraction (test).
+2025-07-21 22:14:31,036 P10068 INFO Training model on cpu...
+2025-07-21 22:14:34,819 P10068 INFO Epoch 1 loss: 0.0000, time: 3.78 seconds
+2025-07-21 22:14:34,819 P10068 INFO Evaluating test set...
+2025-07-21 22:14:34,928 P10068 INFO Inference time: 0.11 seconds
+2025-07-21 22:14:34,953 P10068 INFO Calculating acc sum
+2025-07-21 22:14:34,961 P10068 INFO Finish generating store_df
+2025-07-21 22:14:34,969 P10068 INFO {'f1': '0.1178', 'rc': '0.7544', 'pc': '0.0639', 'top1-acc': '0.9713'}
+2025-07-21 22:14:34,973 P10068 INFO {'f1': '0.1553', 'rc': '0.7018', 'pc': '0.0873', 'top2-acc': '0.9713'}
+2025-07-21 22:14:34,977 P10068 INFO {'f1': '0.4921', 'rc': '0.5439', 'pc': '0.4493', 'top3-acc': '0.9713'}
+2025-07-21 22:14:34,984 P10068 INFO {'f1': '0.6593', 'rc': '0.5263', 'pc': '0.8824', 'top4-acc': '0.9713'}
+2025-07-21 22:14:34,989 P10068 INFO {'f1': '0.6593', 'rc': '0.5263', 'pc': '0.8824', 'top5-acc': '0.9713'}
+2025-07-21 22:14:34,993 P10068 INFO {'f1': '0.6593', 'rc': '0.5263', 'pc': '0.8824', 'top6-acc': '0.9713'}
+2025-07-21 22:14:35,000 P10068 INFO {'f1': '0.4750', 'rc': '0.3333', 'pc': '0.8261', 'top7-acc': '0.9713'}
+2025-07-21 22:14:35,004 P10068 INFO {'f1': '0.4935', 'rc': '0.3333', 'pc': '0.9500', 'top8-acc': '0.9713'}
+2025-07-21 22:14:35,008 P10068 INFO {'f1': '0.1875', 'rc': '0.1053', 'pc': '0.8571', 'top9-acc': '0.9713'}
+2025-07-21 22:14:35,014 P10068 INFO {'f1': '0.1905', 'rc': '0.1053', 'pc': '1.0000', 'top10-acc': '0.9713'}
+2025-07-21 22:14:35,015 P10068 INFO Count time: 0.08 seconds
+2025-07-21 22:14:35,016 P10068 INFO Saving model to ./experiment_records\d30848aa\model.ckpt
+2025-07-21 22:14:37,556 P10068 INFO Epoch 2 loss: 0.0000, time: 2.54 seconds
+2025-07-21 22:14:37,557 P10068 INFO Evaluating test set...
+2025-07-21 22:14:37,668 P10068 INFO Inference time: 0.11 seconds
+2025-07-21 22:14:37,692 P10068 INFO Calculating acc sum
+2025-07-21 22:14:37,698 P10068 INFO Finish generating store_df
+2025-07-21 22:14:37,704 P10068 INFO {'f1': '0.0761', 'rc': '0.9825', 'pc': '0.0396', 'top1-acc': '0.9713'}
+2025-07-21 22:14:37,709 P10068 INFO {'f1': '0.1372', 'rc': '0.7018', 'pc': '0.0760', 'top2-acc': '0.9713'}
+2025-07-21 22:14:37,713 P10068 INFO {'f1': '0.4921', 'rc': '0.5439', 'pc': '0.4493', 'top3-acc': '0.9713'}
+2025-07-21 22:14:37,718 P10068 INFO {'f1': '0.6667', 'rc': '0.5263', 'pc': '0.9091', 'top4-acc': '0.9713'}
+2025-07-21 22:14:37,722 P10068 INFO {'f1': '0.6897', 'rc': '0.5263', 'pc': '1.0000', 'top5-acc': '0.9713'}
+2025-07-21 22:14:37,726 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top6-acc': '0.9713'}
+2025-07-21 22:14:37,731 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top7-acc': '0.9713'}
+2025-07-21 22:14:37,735 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top8-acc': '0.9713'}
+2025-07-21 22:14:37,740 P10068 INFO {'f1': '0.4800', 'rc': '0.3158', 'pc': '1.0000', 'top9-acc': '0.9713'}
+2025-07-21 22:14:37,744 P10068 INFO {'f1': '0.4800', 'rc': '0.3158', 'pc': '1.0000', 'top10-acc': '0.9713'}
+2025-07-21 22:14:37,744 P10068 INFO Count time: 0.07 seconds
+2025-07-21 22:14:37,745 P10068 INFO Saving model to ./experiment_records\d30848aa\model.ckpt
+2025-07-21 22:14:40,278 P10068 INFO Epoch 3 loss: 0.0000, time: 2.53 seconds
+2025-07-21 22:14:40,279 P10068 INFO Evaluating test set...
+2025-07-21 22:14:40,380 P10068 INFO Inference time: 0.10 seconds
+2025-07-21 22:14:40,402 P10068 INFO Calculating acc sum
+2025-07-21 22:14:40,407 P10068 INFO Finish generating store_df
+2025-07-21 22:14:40,415 P10068 INFO {'f1': '0.1018', 'rc': '0.7544', 'pc': '0.0546', 'top1-acc': '0.9713'}
+2025-07-21 22:14:40,419 P10068 INFO {'f1': '0.1667', 'rc': '0.6140', 'pc': '0.0964', 'top2-acc': '0.9713'}
+2025-07-21 22:14:40,423 P10068 INFO {'f1': '0.6593', 'rc': '0.5263', 'pc': '0.8824', 'top3-acc': '0.9713'}
+2025-07-21 22:14:40,428 P10068 INFO {'f1': '0.6667', 'rc': '0.5263', 'pc': '0.9091', 'top4-acc': '0.9713'}
+2025-07-21 22:14:40,432 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top5-acc': '0.9713'}
+2025-07-21 22:14:40,436 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top6-acc': '0.9713'}
+2025-07-21 22:14:40,440 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top7-acc': '0.9713'}
+2025-07-21 22:14:40,445 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top8-acc': '0.9713'}
+2025-07-21 22:14:40,450 P10068 INFO {'f1': '0.4800', 'rc': '0.3158', 'pc': '1.0000', 'top9-acc': '0.9713'}
+2025-07-21 22:14:40,454 P10068 INFO {'f1': '0.4800', 'rc': '0.3158', 'pc': '1.0000', 'top10-acc': '0.9713'}
+2025-07-21 22:14:40,454 P10068 INFO Count time: 0.07 seconds
+2025-07-21 22:14:43,363 P10068 INFO Epoch 4 loss: 0.0000, time: 2.91 seconds
+2025-07-21 22:14:43,363 P10068 INFO Evaluating test set...
+2025-07-21 22:14:43,517 P10068 INFO Inference time: 0.15 seconds
+2025-07-21 22:14:43,546 P10068 INFO Calculating acc sum
+2025-07-21 22:14:43,552 P10068 INFO Finish generating store_df
+2025-07-21 22:14:43,558 P10068 INFO {'f1': '0.1424', 'rc': '0.7193', 'pc': '0.0790', 'top1-acc': '0.9713'}
+2025-07-21 22:14:43,565 P10068 INFO {'f1': '0.1958', 'rc': '0.6491', 'pc': '0.1153', 'top2-acc': '0.9713'}
+2025-07-21 22:14:43,570 P10068 INFO {'f1': '0.6667', 'rc': '0.5263', 'pc': '0.9091', 'top3-acc': '0.9713'}
+2025-07-21 22:14:43,574 P10068 INFO {'f1': '0.6667', 'rc': '0.5263', 'pc': '0.9091', 'top4-acc': '0.9713'}
+2025-07-21 22:14:43,585 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top5-acc': '0.9713'}
+2025-07-21 22:14:43,590 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top6-acc': '0.9713'}
+2025-07-21 22:14:43,602 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top7-acc': '0.9713'}
+2025-07-21 22:14:43,609 P10068 INFO {'f1': '0.4800', 'rc': '0.3158', 'pc': '1.0000', 'top8-acc': '0.9713'}
+2025-07-21 22:14:43,619 P10068 INFO {'f1': '0.4595', 'rc': '0.2982', 'pc': '1.0000', 'top9-acc': '0.9713'}
+2025-07-21 22:14:43,623 P10068 INFO {'f1': '0.4384', 'rc': '0.2807', 'pc': '1.0000', 'top10-acc': '0.9713'}
+2025-07-21 22:14:43,623 P10068 INFO Count time: 0.10 seconds
+2025-07-21 22:14:46,178 P10068 INFO Epoch 5 loss: 0.0000, time: 2.55 seconds
+2025-07-21 22:14:46,178 P10068 INFO Evaluating test set...
+2025-07-21 22:14:46,313 P10068 INFO Inference time: 0.13 seconds
+2025-07-21 22:14:46,353 P10068 INFO Calculating acc sum
+2025-07-21 22:14:46,361 P10068 INFO Finish generating store_df
+2025-07-21 22:14:46,367 P10068 INFO {'f1': '0.0777', 'rc': '0.9825', 'pc': '0.0404', 'top1-acc': '0.9713'}
+2025-07-21 22:14:46,372 P10068 INFO {'f1': '0.2208', 'rc': '0.5965', 'pc': '0.1355', 'top2-acc': '0.9713'}
+2025-07-21 22:14:46,378 P10068 INFO {'f1': '0.3471', 'rc': '0.3684', 'pc': '0.3281', 'top3-acc': '0.9713'}
+2025-07-21 22:14:46,383 P10068 INFO {'f1': '0.4810', 'rc': '0.3333', 'pc': '0.8636', 'top4-acc': '0.9713'}
+2025-07-21 22:14:46,388 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top5-acc': '0.9713'}
+2025-07-21 22:14:46,396 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top6-acc': '0.9713'}
+2025-07-21 22:14:46,401 P10068 INFO {'f1': '0.5000', 'rc': '0.3333', 'pc': '1.0000', 'top7-acc': '0.9713'}
+2025-07-21 22:14:46,406 P10068 INFO {'f1': '0.4800', 'rc': '0.3158', 'pc': '1.0000', 'top8-acc': '0.9713'}
+2025-07-21 22:14:46,413 P10068 INFO {'f1': '0.4800', 'rc': '0.3158', 'pc': '1.0000', 'top9-acc': '0.9713'}
+2025-07-21 22:14:46,422 P10068 INFO {'f1': '0.4595', 'rc': '0.2982', 'pc': '1.0000', 'top10-acc': '0.9713'}
+2025-07-21 22:14:46,422 P10068 INFO Count time: 0.10 seconds
+2025-07-21 22:14:46,425 P10068 INFO Early stopping at epoch 5.
+2025-07-21 22:14:46,425 P10068 INFO Loading model from ./experiment_records\d30848aa\model.ckpt

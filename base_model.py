@@ -25,7 +25,7 @@ class Embedder(nn.Module):
                 pretrain_matrix, padding_idx = 1, freeze=freeze
             )
         else:
-            self.embeddding_layer = nn.Embedding(
+            self.embedding_layer = nn.Embedding(
                 vocab_size, embedding_dim, padding_idx=1
             )
     
@@ -66,7 +66,7 @@ class ForcastBaseModel(nn.Module):
         self.time_tracker = {}
 
         os.makedirs(model_save_path, exist_ok=True)
-        self.model_save_file = os.path.join(model_save_path, "model.ckpt")
+        self.model_save_file = os.path.join(model_save_path, "model.pt")
         if feature_type in ["sequentials", "semantics"]:
             self.embedder = Embedder(
                 meta_data["vocab_size"],
@@ -82,11 +82,11 @@ class ForcastBaseModel(nn.Module):
         logging.info(f"Evaluating {dtype} set...")
 
         if self.label_type == "next_log":
-            return self.__evaluate_next_log(test_loader, dtype)
+            return self.__evaluate_next_log(test_loader, dtype=dtype)
         elif self.label_type == "anomaly":
-            return self.__evaluate_anomaly(test_loader, dtype)
+            return self.__evaluate_anomaly(test_loader, dtype=dtype)
         elif self.label_type == "None":
-            return self.__evaluate_recst(test_loader, dtype)
+            return self.__evaluate_recst(test_loader, dtype=dtype)
     
     def __evaluate_recst(self, test_loader, dtype="test"):
         self.eval()
@@ -236,7 +236,7 @@ class ForcastBaseModel(nn.Module):
 
             for col in sorted(topkdf.columns):
                 topk = col + 1
-                hit = (topkdf[col] == store_df["windows_labels"]).astype(int)
+                hit = (topkdf[col] == store_df["window_labels"]).astype(int)
                 hit_df[topk] = hit
 
                 if col == 0:
@@ -244,7 +244,7 @@ class ForcastBaseModel(nn.Module):
                 else:
                     acc_sum += 2 ** topk * hit
             acc_sum[acc_sum == 0] = 2 ** (1+(len(topkdf.columns)))
-            hit_df = ["acc_num"] = acc_sum
+            hit_df["acc_num"] = acc_sum
 
             for col in sorted(topkdf.columns):
                 topk = col+1
@@ -339,6 +339,7 @@ class ForcastBaseModel(nn.Module):
             epoch_time_elapsed = time.time() - epoch_time_start
             logging.info(f"Epoch {epoch} loss: {epoch_loss:.4f}, time: {epoch_time_elapsed:.2f} seconds")
 
+            self.time_tracker["train"] = epoch_time_elapsed
             if test_loader is not None and epoch % 1 == 0:
                 eval_results = self.evaluate(test_loader)
 

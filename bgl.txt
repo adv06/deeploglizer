@@ -1,0 +1,3 @@
+20250722-011051 c85b95ab demo.py dataset:bgl	feature_type:sequentials	use_attention:False	label_type:next_log f1-0.5000	rc-1.0000	pc-0.3333	top8-acc-0.9844	converge-7.0000 train: 0.076 test: 0.007
+20250722-011859 c85b95ab demo.py dataset:bgl	feature_type:sequentials	use_attention:False	label_type:next_log f1-0.4667	rc-1.0000	pc-0.3043	top7-acc-0.9844	converge-6.0000 train: 0.074 test: 0.008
+20250722-011935 c85b95ab demo.py dataset:bgl	feature_type:sequentials	use_attention:False	label_type:next_log f1-0.4828	rc-1.0000	pc-0.3182	top10-acc-0.9844	converge-4.0000 train: 0.090 test: 0.010
